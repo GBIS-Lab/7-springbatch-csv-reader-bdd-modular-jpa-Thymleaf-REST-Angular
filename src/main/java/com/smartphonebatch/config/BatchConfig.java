@@ -53,7 +53,7 @@ public class BatchConfig {
                 //	System.out.println("== Résultat du traitement ==");
                 //	items.forEach(System.out::println);
                 //})
-                .writer(writer) // <-- Ici le JdbcBatchItemWriter
+                .writer(writer)
                 .build();
     }
 
